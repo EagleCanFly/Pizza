@@ -268,3 +268,160 @@ h2 + p {
     text-transform: uppercase;
     color: #eaeaea;
 }
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+.wrapper {
+    max-width: 800px;
+}
+.pizza {
+    display: none;
+}
+.banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.title2 {
+    font-size: 35px;
+    margin-top: 50px;
+}
+.box {
+    flex-direction: column;
+}
+.box-item {
+    padding: 50px 55px 40px 55px;
+}
+.box-text {
+    border-right: none;
+    min-width: 500px;
+    max-width: 600px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 15px;
+}
+}
+
+@media screen and (max-width: 850px) {
+.wrapper {
+    max-width: 600px;
+}
+.navigation {
+    flex-direction: column;
+}
+.nav {
+    padding-top: 20px;
+}
+.box-text {
+    max-width: 400px;
+}
+.header {
+       margin-bottom: 20px;
+}
+.title2 {
+    font-size: 30px;
+}
+h2 + p {
+    font-size: 16px;
+}
+.menu {
+    font-size: 15px;
+}
+.menu > li {
+    padding-left: 11px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 650px) {
+.wrapper {
+    max-width: 400px;
+}
+.nav {
+    font-size: 14px;
+}
+.nav>li {
+    padding-left: 6px;
+    margin-left: 9px;
+}
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.title {
+    font-size: 30px;
+}
+.description {
+    font-size: 16px;
+}
+.title2 {
+    padding: 0;
+}
+.title2::after, .title2::before {
+    display: none;
+}
+.btn {
+    font-size: 18px;
+}
+.menu {
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.menu > li {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-left: none;
+}
+.menu > li > a {
+    padding-bottom: 10px;
+}
+.box {
+    margin-top: 25px;
+}
+.box-text {
+    max-width: 300px;
+    min-width: 200px;
+}
+.box-item {
+    padding: 30px 44px 20px 40px;
+}
+.btn-create {
+    font-size: 19px;
+    background-size: contain;
+}
+.box {
+    margin-bottom: 70px;
+}
+.footer p {
+    margin-top: 70px;
+    font-size: 15px;
+}
+@media screen and (max-width: 400px) {
+.wrapper {
+    max-width: 300px;
+}
+.nav {
+    flex-direction: column;
+}
+.header {
+    margin-bottom: 90px;
+}
+.nav>li {
+    border-left: none;
+    padding: 0;
+    margin: 5px 0;
+}
+.number {
+    font-size: 100px;
+}
+.number-2::after {
+    left: 70px;
+}
+.number-3::after {
+    left: 90px;
+}
+.box-item {
+    padding-left: 30px;
+}
+.btn-create {
+    font-size: 14px;
+}
